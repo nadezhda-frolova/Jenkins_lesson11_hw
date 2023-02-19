@@ -25,7 +25,6 @@ public class FillUserDataTest extends TestBase {
 
     @Test
     void successfulFillUserDataTest() {
-        SelenideLogger.addListener("allure", new AllureSelenide());
         RegistrationPage steps = new RegistrationPage();
 
         steps.openPage();
